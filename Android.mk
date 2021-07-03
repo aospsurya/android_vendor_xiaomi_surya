@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter davinci phoenix surya toco violet,$(TARGET_DEVICE)),)
+ifneq ($(filter surya karna,$(TARGET_DEVICE)),)
 
 endif
